@@ -10,7 +10,7 @@ namespace RepositoryLayer.Context
     {
          public FundooDBContext(DbContextOptions option) : base(option) { }
         //table creation
-        public  DbSet<UserEntity> Users { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
         
     }
 }

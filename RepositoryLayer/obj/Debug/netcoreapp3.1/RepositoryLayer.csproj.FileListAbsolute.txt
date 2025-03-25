@@ -14,3 +14,4 @@ C:\Users\Sai Indu\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\netcorea
 C:\Users\Sai Indu\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.dll
 C:\Users\Sai Indu\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.pdb
 C:\Users\Sai Indu\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.genruntimeconfig.cache
+C:\Users\Sai Indu\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.sourcelink.json

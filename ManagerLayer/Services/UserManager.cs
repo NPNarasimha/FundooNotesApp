@@ -19,5 +19,10 @@ namespace ManagerLayer.Services
         {
             return userRepo.Register(model);
         }
+
+        public bool CheckEmail(string email)
+        {
+            return userRepo.CheckEmail(email);
+        }
     }
 }

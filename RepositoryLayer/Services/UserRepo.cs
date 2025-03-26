@@ -67,7 +67,17 @@ namespace RepositoryLayer.Services
             }
             return true;
         }
-
+             public string Login(LoginModel model)
+                    {
+                        var checkUser = context.Users.FirstOrDefault(x => x.Email == model.Email && x.Password == EncodePasswordToBase64(model.Password));
+           
+                        if (checkUser != null)
+                        {
+                            var token= GenerateToken(checkUser.Email,checkUser.UserId);
+                            return token;
+                        }
+                        return null;
+                    }
         private string GenerateToken(string email, int userId)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]));
@@ -87,16 +97,6 @@ namespace RepositoryLayer.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
 
         }
-        public string Login(LoginModel model)
-        {
-            var checkUser = context.Users.FirstOrDefault(x => x.Email == model.Email && x.Password == EncodePasswordToBase64(model.Password));
-           
-            if (checkUser != null)
-            {
-                var token= GenerateToken(checkUser.Email,checkUser.UserId);
-                return token;
-            }
-            return null;
-        }
+       
     }
 }

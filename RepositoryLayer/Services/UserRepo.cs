@@ -1,20 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using CommonLayer.Models;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using RepositoryLayer.Context;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Interfaces;
+using RepositoryLayer.Migrations;
 
 namespace RepositoryLayer.Services
 {
     public class UserRepo:IUserRepo
     {
         private readonly FundooDBContext context;
-        public UserRepo(FundooDBContext context)
+        private readonly IConfiguration configuration;
+
+        public UserRepo(FundooDBContext context, IConfiguration configuration)
         {
             this.context = context;
+            this.configuration = configuration;
         }
 
         public UserEntity Register(RegisterModel model)
@@ -30,6 +38,9 @@ namespace RepositoryLayer.Services
             context.SaveChanges();
             return user;
         }
+
+       
+
         //Encooding the password 
         //reference c# scorner
         public static string EncodePasswordToBase64(string password)
@@ -57,5 +68,35 @@ namespace RepositoryLayer.Services
             return true;
         }
 
+        private string GenerateToken(string email, int userId)
+        {
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            var claims = new[]
+            {
+                new Claim("EmailId",email),
+                new Claim("UserId",userId.ToString())
+            };
+            var token = new JwtSecurityToken(configuration["Jwt:Issuer"],
+                configuration["Jwt:Audience"],
+                claims,
+                expires: DateTime.Now.AddHours(2),
+                signingCredentials: credentials);
+
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+
+        }
+        public string Login(LoginModel model)
+        {
+            var checkUser = context.Users.FirstOrDefault(x => x.Email == model.Email && x.Password == EncodePasswordToBase64(model.Password));
+           
+            if (checkUser != null)
+            {
+                var token= GenerateToken(checkUser.Email,checkUser.UserId);
+                return token;
+            }
+            return null;
+        }
     }
 }

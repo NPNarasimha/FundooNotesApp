@@ -78,6 +78,31 @@ namespace RepositoryLayer.Services
                         }
                         return null;
                     }
+
+        public ForgetPasswordModel ForgotPassWord(string Email)
+        {
+            UserEntity user = context.Users.ToList().Find(user => user.Email == Email);
+            ForgetPasswordModel forgotPass=new ForgetPasswordModel(); 
+            forgotPass.Email=user.Email;
+            forgotPass.UserId=user.UserId;
+            forgotPass.Token=GenerateToken(user.Email,user.UserId);
+            return forgotPass;
+        }
+
+        public bool ResetPassword(string Email,ResetPasswordModel resetPasswordModel)
+        {
+            UserEntity user = context.Users.ToList().Find(user => user.Email == Email);
+            if (CheckEmail(user.Email)){
+                user.Password = EncodePasswordToBase64(resetPasswordModel.ConformPassword);
+                context.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         private string GenerateToken(string email, int userId)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]));

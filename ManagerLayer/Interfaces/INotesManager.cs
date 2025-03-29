@@ -13,5 +13,8 @@ namespace ManagerLayer.Interfaces
        
         public List<NotesEntity> GetAllNotes(int userId);
         public bool DeleteNotes(int UserId, int NotesId);
+
+        public List<NotesEntity> FetchNotes(string title, string description);
+        public int CountUserNotes(int userId);
     }
 }

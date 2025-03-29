@@ -9,15 +9,15 @@ using RepositoryLayer.Interfaces;
 
 namespace RepositoryLayer.Services
 {
-    public class NotesRepo: INotesRepo
+    public class NotesRepo : INotesRepo
     {
         private readonly FundooDBContext context;
 
-        public NotesRepo(FundooDBContext context) 
+        public NotesRepo(FundooDBContext context)
         {
             this.context = context;
         }
-        public NotesEntity AddingNotes(int UserId,NotesModel notesModel)
+        public NotesEntity AddingNotes(int UserId, NotesModel notesModel)
         {
             NotesEntity notes = new NotesEntity();
             notes.Title = notesModel.Title;
@@ -29,7 +29,7 @@ namespace RepositoryLayer.Services
             context.SaveChanges();
             return notes;
         }
-       
+
 
         public List<NotesEntity> GetAllNotes(int userId)
         {
@@ -45,9 +45,9 @@ namespace RepositoryLayer.Services
 
         }
 
-        public NotesEntity UpdateNotes(int UserId,int NotesId ,NotesModel model)
+        public NotesEntity UpdateNotes(int UserId, int NotesId, NotesModel model)
         {
-            var notes = context.Notes.FirstOrDefault(x=>x.UserId == UserId && x.NotesId == NotesId);
+            var notes = context.Notes.FirstOrDefault(x => x.UserId == UserId && x.NotesId == NotesId);
             if (notes != null)
             {
                 notes.Title = model.Title;
@@ -82,6 +82,35 @@ namespace RepositoryLayer.Services
                 return false;
             }
         }
+
+        //Fetch Notes using title and description
+        public List<NotesEntity> FetchNotes(string title, string description)
+        {
+            var notes = context.Notes.ToList().FindAll(x => x.Title == title && x.Description == description);
+            if (notes.Any())
+            {
+                return notes;
+            }
+            else
+            {
+                return null;
+            }
+        }
+        //Return Count of notes a user has
+
+        public int CountUserNotes(int userId)
+        {
+            var countNotes = context.Notes.Count(x => x.UserId == userId);
+            if (countNotes != null)
+            {
+                return countNotes;
+            }
+            return 0;
+        }
+
+
+
+
 
     }
 }

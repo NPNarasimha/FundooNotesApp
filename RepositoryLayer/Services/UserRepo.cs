@@ -89,7 +89,7 @@ namespace RepositoryLayer.Services
             return forgotPass;
         }
 
-        public bool ResetPassword(string Email,ResetPasswordModel resetPasswordModel)
+    public bool ResetPassword(string Email,ResetPasswordModel resetPasswordModel)
         {
             UserEntity user = context.Users.ToList().Find(user => user.Email == Email);
             if (CheckEmail(user.Email)){
@@ -101,6 +101,76 @@ namespace RepositoryLayer.Services
             {
                 return false;
             }
+        }
+        //get all Users
+    public List<UserEntity> GetAllUserS()
+        {
+            return context.Users.ToList();
+        }
+        //get By UserId
+        public  UserEntity GetUser(int userId)
+        {
+            var user = context.Users.FirstOrDefault(x => x.UserId == userId);
+            if (user != null)
+            {
+                return user;
+            }
+            return null;
+        }
+        //get By Users name startWith 'A'
+        public List<UserEntity> GetUsersByName()
+        {
+            var userByName=context.Users.Where(x => x.FirstName.StartsWith("A")).ToList();
+            if (userByName.Any())
+            {
+                return userByName;
+            }
+            return null;
+        }
+        //Count the Number Of Users
+        public int TotalUsers()
+        {
+            int TotalUser= context.Users.Count();
+            return TotalUser;
+        }
+
+        //Get users ordered by name(ascending & descending)
+        public List<UserEntity> GetUserAscOrder()
+        {
+            var userOrderByName = context.Users.OrderBy(x => x.FirstName).ToList();
+
+            if (userOrderByName.Any())
+            {
+                return userOrderByName;
+            }
+            return null;
+        }
+        public List<UserEntity> GetUserDescOrder()
+        {
+            var userOrderByName = context.Users.OrderByDescending(x => x.FirstName).ToList();
+            if (userOrderByName.Any())
+            {
+                return userOrderByName;
+            }
+            return null;
+        }
+
+        //Get the average age of users
+        public double AverageAge()
+        {
+            var user = context.Users.ToList();
+            double averageAge = user.Select(x => DateTime.Now.Year - x.DOB.Year).Average();
+            return averageAge;
+        }
+        //Get the oldest and youngest user age
+        public List<UserEntity> GetOldestUser()
+        {
+            var user = context.Users.OrderByDescending(x => x.DOB).ToList();
+            if(user.Any())
+            {
+               return user;
+            }
+            return null;
         }
 
         private string GenerateToken(string email, int userId)
@@ -117,11 +187,8 @@ namespace RepositoryLayer.Services
                 claims,
                 expires: DateTime.Now.AddHours(2),
                 signingCredentials: credentials);
-
-
             return new JwtSecurityTokenHandler().WriteToken(token);
-
         }
-       
+    
     }
 }

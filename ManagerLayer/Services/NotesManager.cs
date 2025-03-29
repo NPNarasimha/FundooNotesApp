@@ -34,5 +34,14 @@ namespace ManagerLayer.Services
         {
             return notesRepo.DeleteNotes(UserId, NotesId);
         }
+
+        public List<NotesEntity> FetchNotes(string title, string description)
+        {
+            return notesRepo.FetchNotes(title, description);
+        }
+        public int CountUserNotes(int userId)
+        {
+            return notesRepo.CountUserNotes(userId);
+        }
     }
 }

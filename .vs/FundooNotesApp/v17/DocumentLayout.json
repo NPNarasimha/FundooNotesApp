@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\fundoonotesapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|solutionrelative:fundoonotesapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\managerlayer\\interfaces\\inotesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\interfaces\\inotesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\managerlayer\\services\\notesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\services\\notesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\interfaces\\inotesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\inotesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\services\\notesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\notesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\services\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "FundooNotesApp\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "FundooNotesApp\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAA4wIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:11:16.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "INotesManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Interfaces\\INotesManager.cs",
+              "RelativeDocumentMoniker": "ManagerLayer\\Interfaces\\INotesManager.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Interfaces\\INotesManager.cs",
+              "RelativeToolTip": "ManagerLayer\\Interfaces\\INotesManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:11:06.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotesManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Services\\NotesManager.cs",
+              "RelativeDocumentMoniker": "ManagerLayer\\Services\\NotesManager.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Services\\NotesManager.cs",
+              "RelativeToolTip": "ManagerLayer\\Services\\NotesManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:11:07.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INotesRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:10:56.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotesRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\NotesRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\NotesRepo.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\NotesRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Services\\NotesRepo.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAQwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:52:29.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\UserRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\UserRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Services\\UserRepo.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAcwKUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:45:31.503Z",
+              "EditorCaption": ""
             }
           ]
         }

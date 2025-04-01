@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using CommonLayer.Models;
 using ManagerLayer.Interfaces;
+using Microsoft.AspNetCore.Http;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Interfaces;
 
@@ -42,6 +43,30 @@ namespace ManagerLayer.Services
         public int CountUserNotes(int userId)
         {
             return notesRepo.CountUserNotes(userId);
+        }
+        public bool NotePin(int noteId, int userId)
+        {
+            return notesRepo.NotePin(noteId, userId);
+        }
+        public bool NoteArchive(int userId, int noteId)
+        {
+            return notesRepo.NoteArchive(userId, noteId);
+        }
+        public bool TrashNote(int noteId, int userid)
+        {
+            return notesRepo.TrashNote(noteId, userid);
+        }
+        public bool AddColor(int noteId, int userId, string color)
+        {
+            return notesRepo.AddColor(noteId, userId, color);
+        }
+        public bool reminderNote(int noteId, DateTime reminder)
+        {
+            return notesRepo.reminderNote(noteId, reminder);
+        }
+        public bool AddImage(int noteId, int userId, IFormFile image)
+        {
+            return notesRepo.AddImage(noteId, userId, image);
         }
     }
 }

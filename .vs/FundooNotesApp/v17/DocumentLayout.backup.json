@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\fundoonotesapp\\controllers\\collabratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|solutionrelative:fundoonotesapp\\controllers\\collabratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\managerlayer\\interfaces\\icollabratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\interfaces\\icollabratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\managerlayer\\services\\collabratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\services\\collabratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\interfaces\\icollabratorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\icollabratorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\services\\collabratorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\collabratorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\fundoonotesapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|solutionrelative:fundoonotesapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\managerlayer\\interfaces\\inotesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\interfaces\\inotesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\entity\\collabratorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\collabratorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\managerlayer\\services\\notesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{042AC3B4-5D20-46BD-9C03-590695A7A801}|ManagerLayer\\ManagerLayer.csproj|solutionrelative:managerlayer\\services\\notesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\interfaces\\inotesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\inotesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\services\\notesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\notesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\repositorylayer\\services\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DBA571C-CBB4-41CB-BF16-929E1BC8B805}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|c:\\users\\sai indu\\source\\repos\\fundoonotesapp\\fundoonotesapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD2193B-D15C-44CC-80B8-0DF9F795DBB9}|FundooNotesApp\\FundooNotesApp.csproj|solutionrelative:fundoonotesapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +50,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Startup.cs",
+              "RelativeDocumentMoniker": "FundooNotesApp\\Startup.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Startup.cs",
+              "RelativeToolTip": "FundooNotesApp\\Startup.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:51:03.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CollabratorController.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\CollabratorController.cs",
+              "RelativeDocumentMoniker": "FundooNotesApp\\Controllers\\CollabratorController.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\CollabratorController.cs",
+              "RelativeToolTip": "FundooNotesApp\\Controllers\\CollabratorController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEUAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:21:37.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICollabratorManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Interfaces\\ICollabratorManager.cs",
+              "RelativeDocumentMoniker": "ManagerLayer\\Interfaces\\ICollabratorManager.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Interfaces\\ICollabratorManager.cs",
+              "RelativeToolTip": "ManagerLayer\\Interfaces\\ICollabratorManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:19:04.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollabratorManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Services\\CollabratorManager.cs",
+              "RelativeDocumentMoniker": "ManagerLayer\\Services\\CollabratorManager.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Services\\CollabratorManager.cs",
+              "RelativeToolTip": "ManagerLayer\\Services\\CollabratorManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvxcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:18:42.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICollabratorRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interfaces\\ICollabratorRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\ICollabratorRepo.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interfaces\\ICollabratorRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interfaces\\ICollabratorRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:38:01.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollabratorRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\CollabratorRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\CollabratorRepo.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\CollabratorRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Services\\CollabratorRepo.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwC4AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:37:22.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "NotesController.cs",
               "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\NotesController.cs",
               "RelativeDocumentMoniker": "FundooNotesApp\\Controllers\\NotesController.cs",
               "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\NotesController.cs",
               "RelativeToolTip": "FundooNotesApp\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAA4wJAAAAB4AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T06:11:16.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "INotesManager.cs",
-              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Interfaces\\INotesManager.cs",
-              "RelativeDocumentMoniker": "ManagerLayer\\Interfaces\\INotesManager.cs",
-              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Interfaces\\INotesManager.cs",
-              "RelativeToolTip": "ManagerLayer\\Interfaces\\INotesManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CollabratorEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Entity\\CollabratorEntity.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\CollabratorEntity.cs",
+              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Entity\\CollabratorEntity.cs",
+              "RelativeToolTip": "RepositoryLayer\\Entity\\CollabratorEntity.cs",
+              "ViewState": "AgIAAAoAAADAzMzMzEwswBQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:11:06.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NotesManager.cs",
-              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Services\\NotesManager.cs",
-              "RelativeDocumentMoniker": "ManagerLayer\\Services\\NotesManager.cs",
-              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\ManagerLayer\\Services\\NotesManager.cs",
-              "RelativeToolTip": "ManagerLayer\\Services\\NotesManager.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:11:07.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "INotesRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\INotesRepo.cs",
-              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
-              "RelativeToolTip": "RepositoryLayer\\Interfaces\\INotesRepo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:10:56.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotesRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\NotesRepo.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\NotesRepo.cs",
-              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\NotesRepo.cs",
-              "RelativeToolTip": "RepositoryLayer\\Services\\NotesRepo.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAQwG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T04:52:29.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\UserRepo.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Services\\UserRepo.cs",
-              "ToolTip": "C:\\Users\\Sai Indu\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Services\\UserRepo.cs",
-              "RelativeToolTip": "RepositoryLayer\\Services\\UserRepo.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAcwKUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T04:45:31.503Z",
+              "WhenOpened": "2025-04-01T06:18:56.084Z",
               "EditorCaption": ""
             }
           ]

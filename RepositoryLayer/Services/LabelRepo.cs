@@ -57,33 +57,35 @@ namespace RepositoryLayer.Services
                 return labelRes;
             }
         }
-        public bool deleteLabelFromNote(int userId,int noteId, int labelId)
+       
+        public async Task<bool> deleteLabelToNote(int noteId, int labelId)
         {
-            var note = context.NoteLabels.FirstOrDefault(x =>x.NoteId==noteId && x.LabelId==labelId);
-            if (note == null)
+            var labelRes =await context.NoteLabels.FindAsync(noteId,labelId);
+            if (labelRes == null)
             {
                 return false;
             }
             else
             {
-                context.NoteLabels.Remove(note);
-                context.SaveChanges();
+                context.NoteLabels.Remove(labelRes);
+                await context.SaveChangesAsync();
                 return true;
+               
             }
         }
-        public async Task<LabelEntity> AssiginLabelToNote(int labelId, int noteId)
+        public async Task<bool> AssiginLabelToNote(int noteId, int labelId)
         {
-            var labelRes = context.Labels.FirstOrDefault(x => x.LabelId == labelId);
-            var noteRes = context.Notes.FirstOrDefault(x => x.NotesId == noteId);
-            if (labelRes == null || noteRes == null)
+            var noteRes = await context.Notes.FindAsync(noteId);
+            var labelRes = await context.Labels.FindAsync(labelId);
+            if (noteRes == null || labelRes == null)
             {
-                return null;
+                return false;
             }
             else
             {
-                context.NoteLabels.Add(new NoteLabel {NoteId=noteId,LabelId=labelId });
+                context.NoteLabels.Add(new NoteLabel { NoteId = noteId, LabelId = labelId });
                 await context.SaveChangesAsync();
-                return labelRes;
+                return true;
             }
         }
 

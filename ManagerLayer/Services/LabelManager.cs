@@ -27,17 +27,19 @@ namespace ManagerLayer.Services
         {
             return await labelRepo.updateLabel(userId ,labelId, name);
         }
-        public bool deleteLabelFromNote(int userId, int noteId, int labelId)
-        {
-            return labelRepo.deleteLabelFromNote(userId, noteId, labelId);
-        }
+       
         public async Task<List<LabelEntity>> GetAllLabels(int userId)
         {
             return await labelRepo.GetAllLabels(userId);
         }
-        public async Task<LabelEntity> AssiginLabelToNote(int labelId, int noteId)
+        public async Task<bool> deleteLabelToNote(int noteId, int labelId)
         {
-            return await labelRepo.AssiginLabelToNote(labelId, noteId);
+            return await labelRepo.deleteLabelToNote(noteId, labelId);
         }
+        public Task<bool> AssiginLabelToNote(int noteId, int labelId)
+        {
+            return labelRepo.AssiginLabelToNote(noteId, labelId);
+        }
+
     }
 }

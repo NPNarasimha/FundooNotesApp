@@ -11,12 +11,13 @@ namespace RepositoryLayer.Entity
         [Key]//for primary key
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //identity(1,1) genareted
         public int UserId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+         public string FirstName { get; set; }
+         public string LastName { get; set; }
         public DateTime DOB { get; set; }
+
         public string Gender { get; set; }
         public string Email { get; set; }
-        public string Password { get; set; }
+         public string Password { get; set; }
 
     }
 }

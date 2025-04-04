@@ -89,5 +89,25 @@ namespace RepositoryLayer.Services
             }
         }
 
+        // Join Labels and NoteLabels. (optional) 
+        public async Task<bool> JoinLabel(int labelId)
+        {
+            var Joineddata = context.Labels.Join(context.NoteLabels, l => l.LabelId, nt => nt.LabelId, (l, nt) => new
+            {
+                l.LabelId,
+                l.LabelName,
+                nt.NoteId
+            }).ToList();
+            if (Joineddata == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+
     }
 }
